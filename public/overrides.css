@@ -1,0 +1,34 @@
+.global-search{width:250px;border:1px solid #dbe4eb;border-radius:7px;padding:8px 10px;font-size:11px;background:#f8fafc}
+@media(max-width:700px){.global-search{display:none}}
+.button:disabled{opacity:0.45;cursor:not-allowed !important;pointer-events:none;background:#7e9bb4;border-color:#7e9bb4}
+.drop.dragover{border-color:var(--blue);background:#ebf6fd;outline:2px dashed var(--sky)}
+.sector-pill{display:inline-block;font:9px/1 'DM Mono';padding:4px 7px;border-radius:4px;background:#ebf3f9;color:#0b4d75;text-transform:uppercase;letter-spacing:.5px;font-weight:600}
+.sector-oil{background:#e2f2ff;color:#035388}
+.sector-power{background:#fff3dd;color:#915400}
+.sector-steel{background:#f0eef5;color:#4f3774}
+.sector-mining{background:#e7f5ed;color:#0f5e33}
+.sector-eng{background:#ffebe6;color:#8f2d17}
+.impact-strip{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.impact-item{background:#f5fafc;border:1px solid #dbe7ef;border-radius:6px;padding:8px 12px;font-size:11px;color:#1c3b52;display:flex;align-items:center;gap:6px}
+.impact-item b{color:#075986}
+.search-wrap{position:relative;width:400px}
+.search-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#7b8fa2;font-size:12px;pointer-events:none;z-index:2}
+.global-search{width:100% !important;border:1.5px solid #c9d7e4;border-radius:8px;padding:9px 12px 9px 34px;font-size:12px;background:#f8fafc;transition:all .2s ease;outline:none}
+.global-search:focus{border-color:#1465a7;background:#fff;box-shadow:0 4px 16px rgba(20,101,167,.16)}
+.search-dropdown{position:absolute;top:calc(100% + 6px);left:0;width:520px;max-width:92vw;background:#fff;border:1px solid #cce0f0;border-radius:10px;box-shadow:0 14px 34px rgba(7,20,38,.2),0 3px 8px rgba(7,20,38,.08);max-height:460px;overflow-y:auto;z-index:1000}
+.search-header{padding:10px 14px 6px;font:10px/1 'DM Mono';letter-spacing:.8px;color:#648096;border-bottom:1px solid #edf3f7;background:#fbfdfe;border-radius:10px 10px 0 0}
+.search-item{display:grid;grid-template-columns:85px 1fr 75px;gap:12px;padding:11px 14px;border-bottom:1px solid #edf3f7;align-items:center;cursor:pointer;transition:background .15s ease}
+.search-item:hover{background:#f1f8fc}
+.search-item:last-of-type{border-bottom:0}
+.search-item-code{display:flex;flex-direction:column;gap:4px;align-items:flex-start}
+.search-item-code b{font-family:'DM Mono';font-size:11px;color:#075c95;background:#e7f4fb;padding:3px 6px;border-radius:4px;border:1px solid #bce1f5}
+.score-badge{font-size:9px;font-weight:700;color:#107c57;background:#e4f7ee;padding:2px 5px;border-radius:3px}
+.search-item-title{font-size:13px;font-weight:700;color:#0c253b;margin-bottom:3px}
+.search-item-meta{font-size:11px;color:#5c7083;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.search-item-sources{font-size:10px;color:#275677;background:#f4f9fd;padding:2px 6px;border-radius:4px;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sources-label{font-weight:600;color:#517188}
+.small-btn{padding:5px 8px !important;font-size:10px !important;white-space:nowrap}
+.search-footer{padding:8px 14px;background:#f7fafc;border-top:1px solid #edf3f7;border-radius:0 0 10px 10px;font-size:10px;color:#5f7588;display:flex;justify-content:space-between;align-items:center}
+.search-empty{padding:26px 16px;text-align:center;color:#5c7083}
+@media(max-width:700px){.search-wrap{display:none}}
+

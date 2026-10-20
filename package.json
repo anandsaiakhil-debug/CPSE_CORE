@@ -1,0 +1,7 @@
+{
+  "name": "materialcode-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local CPSE material master harmonization prototype",
+  "scripts": { "start": "node backend/server.js", "dev": "node backend/server.js" }
+}
